@@ -1,10 +1,8 @@
 '''
 Conor Weiss
 10/07/22
-CS 5001, Fall 2022
-Lab 4: Patterns with While loops
 
-A library for input validation tools that I can continue to use through the rest of the course.
+A personal library for input validation tools
 
 Functions included are:
 1. float_input_validation function
