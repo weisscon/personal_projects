@@ -1,11 +1,10 @@
 '''
 Conor Weiss
 10/13/22
-CS 5001, Fall 2022
-Lab 6 - Warhol Image
+Warhol Image
 
-Extension program.
 Creates a warhol art like image in a 2 by 3 grid pattern
+Image filter algorithms more complex
 '''
 import sys
 import filter as f
