@@ -12,7 +12,7 @@ int main(){
   char passattempt[100];
 
   printf("This program will check the strength of a password according to commonly used standards.\n");
-  printf("Enter a string you would like to use as a password.  It must be less than 64 characters long.\n");
+  printf("Enter a string you would like to use as a password.  It must be between 8 and 64 characters long.\n");
   
   scanf("%64s", passattempt);
   
@@ -28,6 +28,11 @@ int main(){
     if (isdigit(passattempt[i]) > 0) {digit = 1;}
     if (ispunct(passattempt[i]) > 0) {specchar = 1;}
     if (passattempt[i] == '\0') {break;}
+  }
+
+  if (i <= 6){
+    printf("\nYour password is too short.  It must be at least 8 characters long.\n");
+    return(-1);
   }
 
   printf("\nYour password contains the following types of characters:\n");
