@@ -1,8 +1,6 @@
 """
 Conor Weiss
 12/04/22
-CS 5001, Fall 2022
-Lab 9: Epic Battle Simulator Driver
 
 Character class file
 including move_select function for move selection
