@@ -1,8 +1,6 @@
 """
 Conor Weiss
 12/04/22
-CS 5001, Fall 2022
-Lab 9: Epic Battle Simulator Driver"
 
 This program uses character, weapon, armor, condition, and event class objects to run an epic battle simulator.
 
