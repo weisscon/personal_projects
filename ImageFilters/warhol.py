@@ -1,11 +1,11 @@
 '''
 Conor Weiss
 10/13/22
-CS 5001, Fall 2022
-Lab 6 - Warhol Image
+Warhol Image
 
 Warhol art generator.
 Creates a warhol art like image in a 2 by 3 grid pattern
+Simple image filters
 '''
 import sys
 import filter as f
