@@ -1,8 +1,7 @@
 '''
 Conor Weiss
 10/13/22
-CS 5001, Fall 2022
-Lab 6 - Warhol Image
+Warhol Image
 
 Show program:
 This script should accept as command line arguments a file name and then 
