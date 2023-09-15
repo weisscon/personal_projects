@@ -1,8 +1,6 @@
 '''
 Conor Weiss
-10/13/22
-CS 5001, Fall 2022
-Lab 6 - Warhol Image
+Warhol Image
 
 Filter library
 Contains filter functions used to manipulate image files
