@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <string.h>
+
+int palindrome_check(char* string, int l_mark, int r_mark){
+
+    if (l_mark >= r_mark){
+	return 1;
+    }
+    
+    if (string[l_mark] != string[r_mark]){
+	return 0;
+    }
+
+    return palindrome_check(string, l_mark + 1, r_mark - 1);
+}
+
+int main(){
+    char test_palindrome[100];
+    printf("Enter a word or phrase to check for a palindrome.\n");	//User instructions
+    scanf("%s", test_palindrome);				//Take in a user entered string.
+
+    int l_mark = 0;						//Set left and right marks based on
+    int r_mark = strlen(test_palindrome) - 1;			//submitted string
+    //I need to set r_mark to strlen(test_palindrome) - 1 because otherwise I will compare the
+    //first string element to the end-of-string character and the code will fail.
+
+    int result = palindrome_check(test_palindrome, l_mark, r_mark);	//Is it a palindrome?
+
+    //report to the user:
+    if (result == 1){
+	printf("Yes, that's a palindrome!\n");
+    } else {
+	printf("That is not a palindrome.\n");
+    }
+
+    return 0;
+}
+
+
